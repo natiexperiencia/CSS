@@ -1,0 +1,56 @@
+body {
+	background-color:#f0b0a0;
+}
+#cambio {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.uno {
+	color:#000;
+}
+.dos {
+	color:#111;
+}
+.tres {
+	color:#222;
+}
+.cuatro {
+	color:#333;
+}
+.cinco {
+	color:#444;
+}
+.seis {
+	color:#555;
+}
+.siete {
+	color:#666;
+}
+.ocho {
+	color:#777;
+}
+.nueve {
+	color:#888;
+}
+.diez {
+	color:#999;
+}
+.once {
+	color:#aaa;
+}
+.doce {
+	color:#bbb;
+}
+.trece {
+	color:#ccc;
+}
+.catorce {
+	color:#ddd;
+}
+.quince {
+	color:#eee;
+}
+.dieciseis {
+	color:#fff;
+}

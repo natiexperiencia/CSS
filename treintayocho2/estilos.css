@@ -1,0 +1,28 @@
+#caja1 {
+	position:absolute;
+	width:60px;
+	height:60px;
+	z-index:3;
+	background-color:#00aa00;
+	top:70px;
+	left:70px;
+}
+#caja2 {
+	position:absolute;
+	width:120px;
+	height:120px;
+	z-index:2;
+	background-color:#aa0000;
+	top:40px;
+	left:40px;
+}
+#caja3 {
+	position:absolute;
+	width:180px;
+	height:180px;
+	z-index:1;
+	background-color:#0000aa;
+}
+p {
+	color:#ffffff;
+}

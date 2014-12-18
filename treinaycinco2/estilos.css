@@ -1,0 +1,21 @@
+table {
+	width:200px;
+	height:200px;
+	border:2px solid black; 
+	padding:15px 15px 15px 15px;
+	margin:15px;
+	text-align:center;
+	border-collapse:collapse;
+}
+th {
+	color:#ffffff;
+	background-color:#000000;
+}
+td {
+	background-color:#00aa00;
+	color:#aa0000;
+}
+.titulo {
+	color:#00aa00;
+	background-color:#aa0000; 
+}

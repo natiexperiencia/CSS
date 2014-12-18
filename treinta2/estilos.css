@@ -1,0 +1,10 @@
+.parrafoestrecho {
+  width:200px; 
+  text-align:justify;
+}
+.parrafoancho {
+	width:100%;
+	text-align:center;
+	color:#22ff00;
+	background-color:#7D6F6F;
+}

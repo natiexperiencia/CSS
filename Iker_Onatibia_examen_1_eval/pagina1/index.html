@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pledge Music</title>
+    <link rel="StyleSheet" href="estilos.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div id="contenedor">
+		<div id="cabecera">
+			<img class="logoPagina" src="imagenes/logo.png" alt="logoPagina" title="Zubiri Travel Agency" />
+			<h1 class="titulo">Agencia de Viajes Zubiri</h1>
+			<img class="logoZubiri" src="imagenes/zubiri.png" alt="logoZubiri" title="Zubiri Travel Agency" />
+		</div><!--cabecera-->
+		<div id="menu">
+			<p class="menu" style="margin-left:80px"><a href="#">Noticias</a></p>
+			<p class="menu"><a href="#">Paquetes de Viajes</a></p>
+			<p class="menu"><a href="#">Destinos</a></p>
+			<p class="menu"><a href="#">Reserva de Vuelos</a></p>
+			<p class="menu"><a href="#">Contacto</a></p>
+		</div><!--menu-->
+		<div id="cuerpo">
+			<div id="izquierda">
+				<div id="sesion">
+					<h2 class="titulos">Iniciar Sesion</h2>
+					<form>
+						<p class="formulario">Usuario: </p>
+						<input class="textareaFormulario" type="text" name="user" size="15" placeholder="Introduzca su usuario" style="margin-top:-35px;" />
+						<p class="formulario">Clave: </p>
+						<input class="textareaFormulario" type="text" name="clave" size="15" placeholder="Introdizca su contraseña" style="margin-top:-35px;"/>
+						<button class="botonFormulario" type="button">Iniciar sesión</button>
+					</form>
+				</div><!--sesion-->
+				<div id="ofertas">
+					<h2 class="titulos">Ofertas de última hora</h2>
+					<ul>
+						<li>Londres - 15 a 20 diciembre - 500€</li>
+						<li>París - 15 a 31 diciembre</li>
+						<li>Roma - 12 a 22 diciembre - 425€</li>
+					</ul>
+				</div><!--ofertas-->
+				<div id="destino">
+					<h2 class="titulos">Destino Sugerido</h2>
+					<h3>París</h3>
+					<img src="imagenes/paris.jpg" alt="fotoDestino" title="París" widith="280" height="280" />
+					<p class="destino">París, la capitel francesa, la ciudad del amor, la cultura y la gente bohemia. Pasa algunos días allí y visita lugares emblemáticos como la Torre Eiffel, el Louvre, Sacre Coeur, etc.</p>
+				</div><!--destino-->
+			</div><!--izquierda-->
+			<div id="derecha">
+				<h2 class="titulos">Reserva de vuelo - Paso 1: Busca tu vuelo</h2>
+				<form>
+					<legend>Busca tus vacaciones deseadas</legend>
+					<p class="formulario2">Destino:</p>
+					<input class="textareaFormulario2" type="text" name="user" size="15" plceholder="Selecciona destino" />
+					<p class="formulario2">Aerolínea:</p>
+					<input class="textareaFormulario2" type="text" name="aircompany" size="15" plceholder="Selecciona aerolínea" />
+					<p class="formulario2">Salida(Fecha/Hora):</p>
+					<input class="textareaFormulario2" type="text" name="salida" size="15" />
+					<p class="formulario2">Regreso(Fecha/Hora):</p>
+					<input class="textareaFormulario2" type="text" name="vuelta" size="15" />
+					<button class="botonFormulario2" type="button">Buscar vuelos</button>
+				</form>
+				<h2 class="titulos">Tabla</h2>
+				<table border="1" class="tabla">
+					<tr>
+						<th colspan="2">Destinos</th><th>Aerolíneas</th><th colspan="2">Destinos y Aerolíneas</th>
+					</tr>
+					<tr>
+						<td colspan="2">Londres</td><td rowspan="2">Lufthansa</td><td>Londres_2</td><td>Roma_2</td>
+					</tr>
+					<tr>
+						<td>París</td><td>Roma</td><td>Iberia_2</td><td>Iberia_3</td>
+					</tr>
+					<tr>
+						<td rowspan="2" colspan="2">Sidney</td><td>Iberia</td><td rowspan="2">Sidney_2</td><td rowspan="2">Zubiri Airlines_2</td>
+					</tr>
+					<tr>
+						<td>Zubiri Airlines</td>
+					</tr>
+					<tr>
+						<td colspan="2">Tokyo</td><td>RyanAir</td><td colspan="2">American Airlines</td>
+					</tr>
+				</table>
+			</div><!--derecha-->
+		</div><!--cuerpo-->
+		<div id="footer">
+			<p>Iker Oñatibia &#45; &copy;2014</p>
+		</div><!--footer-->
+	</div><!--contenedor-->

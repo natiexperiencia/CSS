@@ -1,0 +1,171 @@
+body{
+	background-color:#99aadd;
+}
+a{
+	text-decoration:none;
+}
+legend{
+	margin-left:15px;
+}
+#contenedor{
+	margin:auto;
+	width:1024px;
+	background-color:#ffaabb;
+	border:1px solid black;
+	min-height:1050px;
+	border-radius:25px;
+	box-shadow:5px 5px 5px;
+}
+#cabecera{
+	height:150px;
+	top:-10px;
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+
+}
+.cabecera{
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	z-index:2;
+}
+#logoPagina{
+	position:absolute;
+	margin-top:-140px;
+
+}
+#titulo{
+	color:#fff;
+	font-weight:normal;
+	font-size:150%;
+	font-family:Arial;
+	margin-top:-110px;
+	position:absolute;
+	margin-left:250px;
+}
+#logoZubiri{
+	margin-left:880px;
+	margin-top:-130px;
+	z-index:1;
+	position:relative;
+	width:110px;
+	height:80px;
+}
+.logoZubiri{
+	border-radius:5px;
+	border:1px solid black;
+}
+#menu{
+	float:left;
+	width:100%;
+	background-color:lightgrey;
+	height:45px;
+	margin-top:0px;
+	border-bottom:1px solid black;
+}
+#menu a{
+	color:black;
+}
+#menu a:hover{
+	color:purple;
+	font-family:"Comic Sans MS";
+	font-size:10pt;
+}
+.menu{
+	display:inline;
+	border:1px solid black;
+	padding:3px 5px;
+	text-align:center;
+	float:left;
+	margin-top:10px;
+	background-color:lightblue; 
+	margin-right:10px;
+	width:150px;
+	border-radius:5px;
+	box-shadow:3px 3px 3px;
+}
+.menu .primerElemento{
+	margin-left:50px;
+}
+#cuerpo{
+
+}
+#izquierda{
+	float:left;
+	width:300px;
+	overflow:hidden;
+}
+#sesion{
+	border:1px solid black;
+	background-color:lightgrey;
+	margin:10px;
+	padding:5px;
+	box-shadow:5px 5px 5px;
+	border-radius:5px;
+}
+.titulos{
+
+}
+.formulario{
+
+}
+.textareaFormulario{
+	float:right;
+	margin-bottom:0px;
+}
+.botonFormulario{
+	margin-bottom:10px;
+}
+#ofertas{
+	border:1px solid black;
+	background-color:lightgrey;
+	margin:10px;
+	padding:5px;
+	box-shadow:5px 5px 5px;
+	border-radius:5px;
+}
+#destino{
+	border:1px solid black;
+	background-color:lightgrey;
+	margin:10px;
+	padding:5px;
+	box-shadow:5px 5px 5px;
+	border-radius:5px;
+}
+.destino{
+
+}
+#destino img{
+	margin-right:5px;
+	margin-left:5px;
+}
+#derecha{
+	border:1px solid black;
+	background-color:lightgrey;
+	margin:10px 10px 10px 0px;
+	padding:5px;
+	float:left;
+	overflow:hidden;
+	width:700px;
+	box-shadow:5px 5px 5px;
+	border-radius:5px;
+}
+.formulario2{
+	margin-left:15px;
+}
+.textareaFormulario2{
+	float:right;
+	margin-right:400px;
+	margin-top:-35px;
+}
+.botonFormulario2{
+	margin-bottom:15px;
+}
+.tabla{
+	margin-left:15px;
+	margin-bottom:15px;
+	text-align:center;
+}
+#footer{
+	clear:both;
+	text-align:center;
+}

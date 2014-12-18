@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>diecinueve</title>
+	<link rel="StyleSheet" href="estilos.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. While most often used to change the style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any kind of XML document, including plain XML, SVG and XUL. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.[1]
+
+CSS is designed primarily to enable the separation of document content from document presentation, including elements such as the layout, colors, and fonts.[2] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content, such as semantically insignificant tables that were widely used to format pages before consistent CSS rendering was available in all major browsers. CSS makes it possible to separate presentation instructions from the HTML content in a separate file or style section of the HTML file. For each matching HTML element, it provides a list of formatting instructions. For example, a CSS rule might specify that "all heading 1 elements should be bold," leaving pure semantic HTML markup that asserts "this text is a level 1 heading" without formatting code such as a  tag indicating how such text should be displayed.
+
+This separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (when read out by a speech-based browser or screen reader) and on Braille-based, tactile devices. It can also be used to display the web page differently depending on the screen size or device on which it is being viewed. While the author of a web page typically links to a CSS file within the markup file, readers can specify a different style sheet, such as a CSS file stored on their own computer, to override the one the author has specified. If the author or the reader did not link the document to a style sheet, the default style of the browser will be applied.
+
+The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities or weights are calculated and assigned to rules, so that the results are predictable.
+
+The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[3]
+Syntax[edit]
+CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties.
+
+A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.
+
+Selector[edit]
+In CSS, selectors are used to declare which part of the markup a style applies to by matching tags and attributes in the markup itself. Selectors may apply to:
+
+all elements of a specific type, e.g. the second level headers h2
+elements specified by attribute, in particular:
+id: an identifier unique to the document
+class: an identifier that groups multiple elements in a document
+elements depending on how they are placed relative to others in the document tree.
+Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters and underscores. Any number of instances of any number of elements may have the same class. Conventionally, IDs only apply to one instance of one element.
+
+Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user 'points to' the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover. A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as :first-line or :first-letter.[4]
+
+Selectors may be combined in many ways to achieve great specificity and flexibility.[5] Multiple selectors may be joined in a spaced list to specify elements by location, element type, id, class, or any combination thereof. The order of the selectors is important. For example, div .myClass {color:red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div{color:red;} applies to all div elements that are in elements of class myClass.
+
+The following table provides a summary of selector syntax indicating usage and the version of CSS in which it was introduced.[6]
+
+Pattern	Matches	First Defined in CSS Level
+E	An element of type E	1
+E:link	an E element being the source anchor of a hyperlink of which the target is not yet visited (:link) or already visited	1
+E:active	an E element during certain user actions	1
+E::first-line	the first formatted line of an E element	1
+E::first-letter	the first formatted letter of an E element	1
+E.warning	an E element whose class is "warning" (the document language specifies how class is determined).	1
+E#myid	an E element with ID equal to "myid".	1
+E F	an F element descendant of an E element	1
+*	Any element	2
+E[foo]	an E element with a "foo" attribute	2
+E[foo="bar"]	an E element whose "foo" attribute value is exactly equal to "bar"	2
+E[foo~="bar"]	an E element whose "foo" attribute value is a list of whitespace-separated values, one of which is exactly equal to "bar"	2
+E[foo|="en"]	an E element whose "foo" attribute has a hyphen-separated list of values beginning (from the left) with "en"	2
+E:first-child	an E element, first child of its parent	2
+E:lang(fr)	an element of type E in language "fr" (the document language specifies how language is determined)	2
+E::before	generated content before an E element's content	2
+E::after	generated content after an E element's content	2
+E > F	an F element child of an E element	2
+E + F	an F element immediately preceded by an E element	2
+E[foo^="bar"]	an E element whose "foo" attribute value begins exactly with the string "bar"	3
+E[foo$="bar"]	an E element whose "foo" attribute value ends exactly with the string "bar"	3
+E[foo*="bar"]	an E element whose "foo" attribute value contains the substring "bar"	3
+E:root	an E element, root of the document	3
+E:nth-child(n)	an E element, the n-th child of its parent	3
+E:nth-last-child(n)	an E element, the n-th child of its parent, counting from the last one	3
+E:nth-of-type(n)	an E element, the n-th sibling of its type	3
+E:nth-last-of-type(n)	an E element, the n-th sibling of its type, counting from the last one	3
+E:last-child	an E element, last child of its parent	3
+E:first-of-type	an E element, first sibling of its type	3
+E:last-of-type	an E element, last sibling of its type	3
+E:only-child	an E element, only child of its parent	3
+E:only-of-type	an E element, only sibling of its type	3
+E:empty	an E element that has no children (including text nodes)	3
+E:target	an E element being the target of the referring URI	3
+E:enabled	a user interface element E which is enabled	3
+E:disabled	a user interface element E which is disabled	3
+E:checked	a user interface element E which is checked (for instance a radio-button or checkbox)	3
+E:not(s)	an E element that does not match simple selector s	3
+E ~ F	an F element preceded by an E element	3
+Declaration block[edit]
+A declaration block consists of a list of declarations in braces. Each declaration itself consists of a property, a colon (:), and a value. If there are multiple declarations in a block, a semi-colon (;) must be inserted to separate each declaration.[7]
+
+Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others only apply only to particular groups of elements.[8]
+
+Values may be keywords, such as "center" or "inherit," or numerical values, such as 200px (200 pixels) or 80%. Color values can be specified with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and opacity (e.g. rgba(255, 0, 0, 0.8)), or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).[9]
+
+Use[edit]
+Before CSS, nearly all of the presentational attributes of HTML documents were contained within the HTML markup; all font colors, background styles, element alignments, borders and sizes had to be explicitly described, often repeatedly, within the HTML. CSS allows authors to move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+
+Headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+
+Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles such as the speed and emphasis with which text is read out by aural text readers. The W3C has now deprecated the use of all presentational HTML markup.[10]
+
+For example, under pre-CSS HTML, a header element defined with red text would be written as:
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>PC Venta</title>
+    <link rel="StyleSheet" href="css/estilos.css" type="text/css" />
+    <link rel="shortcut icon" href="../imagenes/favicon.ico" />
+    <meta charset="UTF-8" />
+
+</head>
+<body>
+	<div id="contenedor">
+		<div id="logo">
+		</div><!--logo-->
+		<div id="titulo">
+			<h1>PC Venta</h1>
+		</div><!--titulo-->
+		<div id="formulario">
+			<table class="formulario">
+					<tr>
+						<form action="formulario.php" method="POST">
+							<td class="label">Usuario:</td>
+							<td><input type="text" name="user" size="15" placeholder="Introduzca su usuario" /></td>
+					</tr>
+					<tr>
+							<td class="label">Clave</td>
+							<td><input type="text" name="clave" size="15" placeholder="Introdizca su contrase&ntilde;a" /></td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="Entrar" /></td>
+					</tr>
+						</form>
+				</table>
+		</div><!--formulario-->
+		<nav>
+			<p class="menu"><a href="#">Inicio</a></p>
+			<p class="menu"><a href="#">Nuestra tienda</a></p>
+			<p class="menu"><a href="#">Ordenadores</a></p>
+			<p class="menu"><a href="#">Portátiles</a></p>
+			<p class="menu"><a href="#">Tabletas</a></p>
+		</nav>
+		<section>
+			<table class="producto">
+				<tr>
+					<td class="conBarra">
+						<div id="fotoProducto">
+						</div>
+					</td>
+					<td class="conBarra">
+						<p id="descripcion"><b>Modelo:</b>MSI 2750VX i7, 16GB RAM, 3TB+256SSD</p>
+					</td>
+					<td id="cantidad">
+						<label for="cantidad">Cantidad </label>
+						<select class="cantidad">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select>
+						<input type="submit" value="Comprar" />
+					</td>
+			</table>
+			<p id="descripcionLarga"><b>Descripción:</b>Este ordenador portátil de la marca MSi pone a su alcance la última tecnología. Gracias a su procesador del tipo i7 tiene una alta velocidad de proceso y es capaz de realizar varia
+			tareas a la vez. Además, posee 16GB de memoria RAM DDR4 para que las aplicaciones
+			vayan a gran velocidad. El disco duro es de 3TB para poder guardar la información sin
+			problemas de espacio. Y dispone de 256GB de memoria SSD para arrancar el sistema más
+			rápido que nunca.</p>
+			<br/>
+			<p id="opiniones"><b>Opiniones:</b><br/><b>Patxi:</b>Compré éste portatil y es tan bueno como esperaba. Ahora los deberes que me mandan en clase los puedo hacer rápido y bien.</p>
+		</section>
+		<aside id="derecha">
+			<div id="carrito">
+				<p><b>Carrito</b></p>
+				<div id="fotoCarro">
+				</div>
+				<p>Carrito vacio</p>
+			</div><!--carrito-->
+			<div id="ofertas">
+				<p id="tituloOferta">¡Super Oferta!</p>
+				<p>Samsung Galaxy Note 3....300€</p>
+				<p>Samsung Galaxy Note 2....200€</p>
+				<p>Samsung Galaxy Mega......350€</p>
+			</div><!--ofertas-->
+		</aside><!--derecha-->
+		<footer>
+			<p>&copy; Iker Oñatibia - 2014</p>
+		</footer>
+	</div><!--contenedor-->
+</body>
+</html>

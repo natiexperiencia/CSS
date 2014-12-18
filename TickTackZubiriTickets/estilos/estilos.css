@@ -1,0 +1,325 @@
+body{
+	background-color:#0066DD;
+}
+legend{
+	font-weight:bold;
+}
+select{
+	margin-left:5px;
+	margin-bottom:5px;
+}
+h3{
+	margin-left:5px;
+}
+video {
+	margin-left:5px;
+}
+audio{
+	margin-left:5px;
+}
+section{
+	width:1024px;
+	background-color:#9988CC;
+	margin:auto;
+	border:1px solid black;
+	border-radius:25px;
+	height:750px;
+	font-family:laMia;
+	box-shadow:5px 5px 10px;
+}
+header{
+	height:150px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	background-image:url("../images/banner.jpg");
+	background-size:1024px 150px;
+	width:1024px;
+}
+#logo{
+	float:left;
+	margin-top:15px;
+	margin-left:30px;
+	background-image:url("../images/logo.png");
+	background-size:120px 120px;
+	width:120px;
+	height:120px;
+}
+#titulo{
+	float:left;
+	margin-top:15px;
+	margin-left:5px;
+}
+.tituloCabecera{
+	color:#0066DD;
+	font-size:50px;
+	font-weight:normal;
+	letter-spacing:0px;
+	text-shadow:5px 5px black;
+	font-family: titulo;
+	font-weight:bold;
+}
+@font-face{
+	font-family:laMia;
+	src:url("../fonts/Aliquamulti.ttf");
+}
+@font-face{
+	font-family:otra;
+	src:url("../fonts/Sabandija-font-ffp.ttf");
+}
+@font-face{
+	font-family:titulo;
+	src:url("../fonts/POLAR VORTEX c PERSONAL USE ONLY.ttf");
+}
+@font-face{
+	font-family:paraTitulos;
+	src:url("../fonts/PIJAMAS_.ttf");
+}
+#formulario{
+	background-color:lightgrey;
+	float:right;
+	margin-right:25px;
+	width:280px;
+	height:141px;
+	margin-top:5px;
+
+}
+.form{
+	font-weight:bold;
+	float:left;
+	word-spacing:0px;
+}
+.form2{
+	clear:both;
+	font-weight:bold;
+}
+.textarea{
+	float:right;
+	position:relative;
+	top:15px;
+}
+.textarea2{
+	float:right;
+	position:relative;
+	bottom:35px;
+}
+.botonFormulario{
+	position:relative;
+	clear:both;
+	bottom:10px;
+}
+#izquierda{
+	width:220px;
+}
+#derecha{
+	float:right;
+	width:220px;
+	margin-right:10px;
+	margin-top:-525px;
+}
+#centro{
+	float:left;
+	left:250px;
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	width:550px;
+	box-shadow:5px 5px 7px;
+	min-height:670px;
+	margin-left:230px;
+	margin-top:-516px;
+	margin-bottom:10px;
+}
+#menu{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#suscribir{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#artistasDestacados{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+a{
+	text-decoration:none;
+	font-size:90%;
+	font-family:otra;
+}
+#cuerpo{
+	border:1px solid black;
+	border-radius:5px;
+}
+#proximos{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#artista{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+	text-align:center;
+}
+#fotoArtista{
+	background-size:175px 175px;
+	background-image:url("../images/zakk.jpg");
+	width:175px;
+	height:175px;
+	margin:12px;
+}
+#titulos{
+	font-size:130%;
+	margin-left:5px;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-family:paraTitulos;
+	font-size:35px;
+}
+.correo{
+	margin-bottom:0px;
+	font-size:90%;
+	margin-left:5px;
+}
+.email{
+	margin-left:5px;
+	margin-bottom:2px;
+}
+.botonSuscripcion{
+	margin-left:5px;
+	margin-bottom:5px;
+}
+#tituloCuerpo{
+	margin-left:10px;
+	margin-top:5px;
+	font-size:210%;
+	font-family:paraTitulos;
+	font-size:55px;
+}
+#fecha{
+	margin-left:5px;
+	font-size:100%;
+}
+#parrafo{
+	margin-left:5px;
+	margin-right: 5px;
+	text-align:justify;
+	word-spacing:5px;
+	font-size:90%;
+}
+.bold{
+	font-weight:bold;
+}
+
+.artista{
+	word-spacing:normal;
+	margin-top:5px;
+	margin-bottom:13px;
+}
+#fotos{
+	width:150px;
+	height:180px;
+	margin-left:25px;
+	margin-bottom:15px;
+}
+.foto1{
+	background-size:150px 180px;
+	background-image:url("../images/zakk2.jpg");
+	float:left;
+}
+.foto2{
+	background-size:150px 180px;
+	background-image:url("../images/dave.jpg"); 
+	float:left;
+}
+.foto3{
+	background-size:150px 180px;
+	background-image:url("../images/mick.jpg"); 
+	float:left;
+}
+.foto4{
+	background-size:150px 180px;
+	background-image:url("../images/dimebag.jpg"); 
+	float:left;
+}
+.foto5{
+	background-size:150px 180px;
+	background-image:url("../images/jimmy.jpg"); 
+	float:left;
+}
+.foto6{
+	background-size:150px 180px;
+	background-image:url("../images/kirk.jpg"); 
+	float:left;
+}
+.foto7{
+	background-size:150px 180px;
+	background-image:url("../images/rob.jpg"); 
+	float:left;
+}
+.foto8{
+	background-size:150px 180px;
+	background-image:url("../images/tony.jpg"); 
+	float:left;
+}
+.foto9{
+	background-size:150px 180px;
+	background-image:url("../images/kerry.jpg"); 
+	float:left;
+}
+#formEntradas {
+	float:left;
+	font-weight:bold;
+}
+#formEntradas2 {
+	clear:both;
+	font-weight:bold;
+}
+#formEntradas3 {
+	clear:both;
+	font-weight:bold; 
+}
+#textEntradas{
+	float:left;
+	margin-top:-10px;
+	margin-left:160px;
+}
+#textEntradas2 {
+	margin-top:-50px;
+	margin-right:174px;
+}
+#barra {
+	float:left;
+	margin-left:200px;
+	margin-top:-35px;
+}
+#botonComprar {
+	border-radius:5px;
+	border:1px solid black;
+}
+output {
+	float:right;
+	font-weight:bold;
+	margin-top:-35px;
+	margin-right:150px;
+}
+footer{
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:-15px;
+}
+

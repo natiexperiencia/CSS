@@ -1,0 +1,29 @@
+#menu {
+	font-family:Comic Sans MS, Arial;
+	border:1px dotted red;
+	width:210px;
+	position:absolute;
+	top:30px;
+	height:140px;
+}
+#menu a {
+	display:block;
+	padding:5px;
+	width:200px;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	border-bottom:2px solid white;
+}
+#menu p {
+	margin:0px;
+}
+#menu a:hover {
+	background-color:#ffffff;
+	color:#000000; 
+}
+#contenido {
+	position:absolute;
+	top:10px;
+	margin-left:250px;
+}

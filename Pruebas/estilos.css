@@ -1,0 +1,59 @@
+body{
+	background-color:purple;
+}
+#contenedor{
+	background-color:#00dd99;
+	margin:auto;
+	width:1024px;
+	border:2px dotted orange;
+}
+#cabecera{
+	border:1px solid black;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	background-color:#6666dd;
+}
+.cajas{
+	border:2px dotted red;
+	border-radius:10px;
+	margin: 10px;
+	padding:15px;
+}
+.123{
+
+}
+#caja1{
+	width:200px;
+	background-color:lightgrey;
+	height:280px;
+	margin-bottom:10px;
+	box-shadow:5px 5px 10px;
+}
+#caja2{
+	width:200px;
+	background-color:lightgrey;
+	height:150px;
+	margin-bottom:10px;
+	box-shadow:5px 5px 10px;
+}
+#caja3{
+	width:200px;
+	background-color:lightgrey;
+	height:220px;
+	margin-bottom:10px;
+	box-shadow:5px 5px 10px;
+}
+#caja4{
+	width:350px;
+
+	height:400px;
+	background-color:lightgrey;
+	box-shadow:5px 5px 10px;
+	float:left;
+
+}
+#caja5{
+	width:200px;
+}
+#caja6{
+}

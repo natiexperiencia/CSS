@@ -1,0 +1,207 @@
+body{
+	background-color:#0066DD;
+}
+fieldset{
+	color:1px dotted #ffffff;
+}
+legend{
+	font-weight:bold;
+}
+select{
+	margin-left:5px;
+	margin-bottom:5px;
+}
+h3{
+	margin-left:5px;
+}
+#contenedor{
+	width:1024px;
+	background-color:#9988CC;
+	margin:auto;
+	border:1px solid black;
+	border-radius:25px;
+	height:735px;
+	font-family:"Times New Roman";
+}
+#cabecera{
+	height:150px;
+	border-radius-top-left:25px;
+	border-radius-top-right:25px;
+}
+.cabecera{
+	width:1024px;
+	height:150px;
+	border-bottom:1px solid black;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+}
+#logo{
+	float:left;
+	position:absolute;
+	top:25px;
+	left:190px;
+}
+.logo{
+	width:120px;
+	height:120px;
+}
+#titulo{
+	position:absolute;
+	top:20px;
+	left:320px;
+}
+.tituloCabecera{
+	color:#0066DD;
+	font-size:55px;
+	font-weight:normal;
+	letter-spacing:0px;
+	text-shadow:5px 5px black;
+	font-family: "Times New Roman";
+}
+#formulario{
+	background-color:lightgrey;
+	float:right;
+	position:absolute;
+	top:15px;
+	right:190px;
+	width:280px;
+	height:141px;
+
+}
+.form{
+	font-weight:bold;
+	float:left;
+	word-spacing:0px;
+}
+.form2{
+	clear:both;
+	font-weight:bold;
+}
+.textarea{
+	float:right;
+	position:relative;
+	top:15px;
+}
+.textarea2{
+	float:right;
+	position:relative;
+	bottom:35px;
+}
+.botonFormulario{
+	position:relative;
+	clear:both;
+	bottom:10px;
+}
+#izquierda{
+	float:left;
+	width:220px;
+}
+#derecha{
+	float:right;
+	width:220px;
+	margin-right:10px;
+}
+#centro{
+	float:left;
+	left:250px;
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	width:550px;
+	box-shadow:5px 5px 7px;
+	min-height:540px;
+}
+#menu{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#suscribir{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#artistasDestacados{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+a{
+	text-decoration:none;
+	font-size:90%;
+}
+#cuerpo{
+	border:1px solid black;
+	border-radius:5px;
+}
+#proximos{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+}
+#artista{
+	border:1px solid black;
+	border-radius:5px;
+	background-color:lightgrey;
+	margin:10px;
+	box-shadow:5px 5px 7px;
+	text-align:center;
+}
+#titulos{
+	font-size:130%;
+	margin-left:5px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.correo{
+	margin-bottom:0px;
+	font-size:90%;
+	margin-left:5px;
+}
+.email{
+	margin-left:5px;
+	margin-bottom:2px;
+}
+.botonSuscripcion{
+	margin-left:5px;
+	margin-bottom:5px;
+}
+#tituloCuerpo{
+	margin-left:10px;
+	margin-top:5px;
+	font-size:210%;
+}
+#fecha{
+	margin-left:5px;
+	font-size:100%;
+}
+#parrafo{
+	margin-left:5px;
+	margin-right: 5px;
+	text-align:justify;
+	word-spacing:5px;
+	font-size:90%;
+}
+#autor{
+	clear:both;
+	text-align:center;
+}
+.artistaDeLaSemana{
+	margin:5px auto;
+	height:175px;
+	width:175px;
+}
+.artista{
+	word-spacing:normal;
+	margin-top:5px;
+	margin-bottom:13px;
+}

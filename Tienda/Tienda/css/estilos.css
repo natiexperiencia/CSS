@@ -1,0 +1,172 @@
+body {
+	background-color:#007700;
+}
+@font-face{
+	font-family:laMia;
+	src:url("../fuentes/Blox2.ttf");
+}
+#contenedor {
+	width:1024px;
+	margin:auto;
+	border:1px solid black;
+	border-radius:10px;
+	box-shadow:10px 10px 20px black;
+	height:700px;
+	background-color:#99bbee;
+}
+#logo {
+	background-image:url("../imagenes/logo.png");
+	background-size:150px 150px;
+	width:150px;
+	height:150px;
+	float:left;
+	margin:15px;
+}
+#titulo {
+	font-family:laMia;
+	font-size:40pt;
+	text-shadow:25px 15px 5px grey;
+	letter-spacing:5px;
+	margin-top:-40px;
+	margin-left:250px;
+}
+#formulario {
+	float:right;
+	margin-top:-210px;
+	margin-right:50px;
+}
+table.formulario {
+	border-collapse:collapse;
+	border:none;
+	margin-top:25px;
+	width:200px;
+}
+td {
+	padding:0px;
+}
+nav{
+	margin:auto;
+	width:98%;
+	background-color:lightblue;
+	height:60px;
+	margin-top:0px;
+	border:2px solid black;
+	border-radius:10px;
+}
+nav a{
+	text-decoration:none;
+}
+.menu{
+	display:inline;
+	border:1px solid black;
+	border-radius:25px;
+	padding:0px;
+	text-align:center;
+	float:left;
+	margin-top:17px;
+	background-color:green; 
+	margin-left:80px;
+	width:95px;
+}
+.menu:hover {
+	background-color:lightgreen;
+}
+
+section {
+	width:700px;
+	background-color:lightgrey;
+	margin-left:10px;
+	box-shadow:5px 5px 10px black;
+	border-radius:10px;
+	border:1px solid black;
+	margin-top:50px;
+
+}
+.producto {
+}
+#fotoProducto {
+	background-image:url("../imagenes/laptop.jpg");
+	background-size:60px 60px;
+	width:60px;
+	height:60px;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top:-20px;
+}
+td {
+	width:233px;
+	text-align:justify;
+
+}
+.conBarra {
+	border-right:2px solid black;
+}
+#descripcion {
+	margin-left:10px;
+	margin-right:10px;
+	font-size:130%;
+	margin-top:0px;
+}
+td#cantidad {
+	padding-bottom:45px;
+}
+select {
+	width:100px;
+	margin-right:50px;
+}
+#descripcionLarga {
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+}
+#opiniones {
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+}
+#carrito {
+	width:290px;
+	background-color:lightgrey;
+	margin-right:10px;
+	box-shadow:5px 5px 10px black;
+	border-radius:10px;
+	border:1px solid black;
+	margin-top:-325px;
+	float:right;
+	min-height:150px;
+}
+#fotoCarro {
+	background-image:url("../imagenes/carrito.jpg");
+	background-size:50px 50px;
+	width:50px;
+	height:50px;
+	float:right;
+	margin-top:-40px;
+	margin-right:100px;
+}
+#carrito p {
+	margin-left:10px;
+	margin-top:40px;
+}
+#ofertas {
+	width:290px;
+	background-color:lightgrey;
+	margin-right:10px;
+	box-shadow:5px 5px 10px black;
+	border-radius:10px;
+	border:1px solid black;
+	margin-top:-155px;
+	float:right;
+	min-height:115px;
+	line-height:0px;
+}
+#ofertas p {
+	margin-left:15px;
+}
+#tituloOferta {
+	margin-top:40px;
+	font-weight:bold;
+}
+footer {
+	text-align:center;
+}

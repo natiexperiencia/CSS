@@ -1,0 +1,54 @@
+.pixel1 {
+  font-size:12px;
+}
+.pixel2 {
+  font-size:15px;
+}
+.em1{
+  font-size:1em;
+}
+.em2{
+  font-size:1.5em;
+}
+.ex1{
+  font-size:1ex;
+}
+.ex2{
+  font-size:1.5ex;
+}
+.in1{
+  font-size:1in;
+}
+.in2{
+  font-size:1.5in;
+}
+.cm1{
+  font-size:1cm;
+}
+.cm2{
+  font-size:1.5cm;
+}
+.mm1{
+  font-size:10mm;
+}
+.mm2{
+  font-size:15mm;
+}
+.pt1{
+  font-size:10pt;
+}
+.pt2{
+  font-size:15pt;
+}
+.pc1{
+  font-size:1pc;
+}
+.pc2{
+  font-size:1.5pc;
+}
+.porcentaje1{
+  font-size:150%;
+}
+.porcentaje2{
+  font-size:200%;
+}

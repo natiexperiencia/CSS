@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Cines Zubiri</title>
+    <link rel="StyleSheet" href="estilos/estilos.css" type="text/css" />
+    <link rel="shortcut icon" href="../imagenes/favicon.ico" />
+    <meta charset="UTF-8" />
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<div id="logoZubiri">
+			</div>
+			<div id="tituloPagina">
+				<h1>Cines Zubiri</h1>
+			</div>
+			<div id="logoOtro">
+			</div>
+		</header>
+		<nav>
+			<p class="primerElemento"><a href="index.html">Novedades</a></p>
+			<p><a href="peliculas.html">Películas</a></p>
+			<p><a href="criticas.html">Críticas</a></p>
+			<p><a href="fotos.html">Fotos</a></p>
+			<p><a href="videos.html">Videos</a></p>
+		</nav>
+		<div id="cuerpo">
+			<aside>
+				<div id="zubiriCinebox">
+					<h1>Zubiri CineBox</h1>
+					<ul>
+						<li><b>Dirección:</b>Paseo de Barandiarán</li>
+						<li><b>Población:</b>20013, Donostia(Gipuzkoa)</li>
+						<li><b>Teléfono:</b>943278700</li>
+						<li><b>Precios:</b>7,65€(normal) y 8,20€ fin de semana</li>
+						<li><b>Día del espectador:</b>Jueves(6,20€)</li>
+					</ul>
+				</div>
+				<div id="peliculas">
+					<h1>Películas en proyección</h1>
+					<h2>Búsqueda avanzada</h2>
+					<ul>
+						<li>15:00 a 18:00
+							<select id="tarde">
+    							<option disabled selected>Elige película</option>
+    							<option value="exodus">Exodus</option>
+							    <option value="mortadelo">Mortadelo y Filemón</option>
+							    <option value="wija">Ouija</option>
+							</select>
+						</li>
+						<li>18:00 a 21:00
+							<select id="noche">
+								<option disable selected>Elige película</option>
+								<option value="exodus">Exodus</option>
+								<option value="magia">Magia a la luz de la luna</option>
+								<option value="good">Good People</option>
+							</select>
+						</li>
+						<li>a partir 21:00
+							<select id="madrugada">
+								<option disabled selected>Elige película</option>
+								<option value="wija">Ouija</option>
+								<option value="newyork">New York</option>
+								<option value="visitantes">Visitantes</option>
+							</select>
+						</li>
+					</ul>
+				</div>
+				<div id="masInformacion">
+					<h1>Más Información</h1>
+					<div id="buscador">
+						<ul>
+							<li>
+								<a href="http://www.facebook.es">
+									<div id="logoFacebook">
+									</div><!--logofacebook-->
+								</a>
+								<a href="http://www.twitter.com">
+									<div id="logoTwitter">
+									</div><!--logotwitter-->
+								</a>
+								<a href="https://plus.google.com">
+									<div id="logoGoogle">
+									</div>
+								</a>
+								Coméntate
+							</li>
+							<li><div id="letraBuscar">
+								Buscar
+								</div>
+								<button type="submit" value="buscar">
+									<div id="logoBuscar">
+									</div>
+								</button>
+								<input id="textoBuscar" type="search" name="buscar" placeholder="Buscar" />
+							</li>
+						</ul>
+					</div><!--buscador-->
+				</div><!--masInformacion-->
+			</aside>
+			<section>
+				<h1>Vídeos</h1>
+				<div id="video">
+					<video width="540" controls>
+  						<source src="videos/exodus.mp4" type="video/mp4" >
+ 						Your browser does not support the video tag.
+					</video>
+				</div>
+			</section>
+			<footer>
+				<p>Iker Oñatibia - &copy;2014</p>
+			</footer>
+		</div><!--cuerpo-->
+	</div><!--contenedor-->
+</body>
+</html>

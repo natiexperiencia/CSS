@@ -1,0 +1,11 @@
+a:link{
+	text-decoration:line-through;
+}
+
+a:visited{
+	text-decoration:line-through;
+}
+
+a:hover{
+	text-decoration:none;
+}
